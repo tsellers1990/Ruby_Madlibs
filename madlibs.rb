@@ -16,23 +16,23 @@ puts "Enter an Object"
 object_2 = gets.chomp()
 
 puts ("
-    {name_1} and {name_2}
+    #{name_1} and #{name_2}
     Went up the hill
-    To fetch a pail of {fluid_1}
-    {name_1} {action_1}
-    And broke his {object_1},
-    And {name_2} came tumbling after.
+    To fetch a pail of #{fluid_1}
+    #{name_1} #{action_1}
+    And broke their #{object_1},
+    And #{name_2} came tumbling after.
 
-    Up {name_1} got
-    And {place_1} did trot,
-    As fast as he could caper;
+    Up #{name_1} got
+    And #{place_1} did trot,
+    As fast as they could caper;
     Went to bed
-    To mend his head
-    With {fluid_2} and {object_2}.
+    To mend their head
+    With #{fluid_2} and #{object_2}.
 
-    {name_2} came in
-    And she did grin
-    To see his paper plaster;
+    #{name_2} came in
+    And they did grin
+    To see their paper plaster;
     Mother, vex’d,
     Did whip her next
-    For causing {name_1}'s disaster")
+    For causing #{name_1}'s disaster")
