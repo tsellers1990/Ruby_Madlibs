@@ -1,21 +1,38 @@
-puts ("
-    {Name_1} and {Name_2}
-    Went up the hill
-    To fetch a pail of {Fluid_1}
-    {Name_1} {Action_1}
-    And broke his {Object_1},
-    And {Name_2} came tumbling after.
+puts "Enter a Name"
+name_1 = gets.chomp()
+puts "Enter a different Name"
+name_2 = gets.chomp()
+puts "Enter a Fluid"
+fluid_1 = gets.chomp()
+puts "Enter an Action"
+action_1 = gets.chomp()
+puts "Enter an Object"
+object_1 = gets.chomp()
+puts "Enter a Place"
+place_1 = gets.chomp()
+puts "Enter a Fluid"
+fluid_2 = gets.chomp()
+puts "Enter an Object"
+object_2 = gets.chomp()
 
-    Up {Name_1} got
-    And {Place_1} did trot,
+puts ("
+    {name_1} and {name_2}
+    Went up the hill
+    To fetch a pail of {fluid_1}
+    {name_1} {action_1}
+    And broke his {object_1},
+    And {name_2} came tumbling after.
+
+    Up {name_1} got
+    And {place_1} did trot,
     As fast as he could caper;
     Went to bed
     To mend his head
-    With {Fluid_2} and {Object_2}.
+    With {fluid_2} and {object_2}.
 
-    {Name_2} came in
+    {name_2} came in
     And she did grin
     To see his paper plaster;
     Mother, vex’d,
     Did whip her next
-    For causing {Name_1}'s disaster")
+    For causing {name_1}'s disaster")
